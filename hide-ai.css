@@ -1,3 +1,5 @@
+/*Will hide fics tagged with AI from view*/
+/*NOT an automatic filter, lowers number of fics shown on search page*/
 .blurb:has(a:is([href*="AI%20assisted" i]),
 [href*="AI-Assisted" i],
 [href*="AI-Generated" i],
