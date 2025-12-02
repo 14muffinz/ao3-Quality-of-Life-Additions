@@ -1,0 +1,151 @@
+/* ao3 automatically deletes all commentary from code*/
+
+/*Normal, Highlighted*/
+.tags .characters a,
+.character ul li a {
+  background-color: #dde6f0;
+}
+
+/* Reversi, Highlighted */
+.tags .characters a,
+.character ul li a {
+  background-color: #003b3b;
+}
+
+/*Credit to ao3 user Branch for this code! Placed here for convenience, will remove if asked. */
+/*Normal, Seperated*/
+.blurb .relationships {
+  font-style: italic;
+  background: none;
+}
+
+ul.tags {
+  padding-top: .5em;
+}
+
+ul.tags li.warnings,
+ul.tags li.relationships,
+ul.tags li.characters,
+ul.tags li.freeforms {
+  float: left !important;
+}
+
+li.warnings + li.relationships,
+li.relationships + li.characters,
+li.characters + li.freeforms,
+li.warnings + li.characters,
+li.warnings + li.freeforms,
+li.relationships + li.freeforms {
+  clear: left;
+}
+
+ul.tags li.warnings:first-child:before {
+  content: "Archive Warnings: ";
+  color: #111;
+  font-weight: bold;
+}
+
+li.warnings + li.relationships:before {
+  content: "Relationships: ";
+  color: #111;
+  font-weight: bold;
+}
+
+li.relationships + li.characters:before {
+  content: "Characters: ";
+  color: #111;
+  font-weight: bold;
+}
+
+li.characters + li.freeforms:before {
+  content: "Freeform: ";
+  color: #111;
+  font-weight: bold;
+}
+
+li.warnings + li.characters:before {
+  content: "Characters: ";
+  color: #111;
+  font-weight: bold;
+}
+
+li.warnings + li.freeforms:before {
+  content: "Freeform: ";
+  color: #111;
+  font-weight: bold;
+}
+
+li.relationships + li.freeforms:before {
+  content: "Freeform: ";
+  color: #111;
+  font-weight: bold;
+}
+
+/*Again, Credit to Branch. All I did was modify text colour */
+/*Reversi, Seperated*/
+.blurb .relationships {
+  font-style: italic;
+  background: none;
+}
+
+ul.tags {
+  padding-top: .5em;
+}
+
+ul.tags li.warnings,
+ul.tags li.relationships,
+ul.tags li.characters,
+ul.tags li.freeforms {
+  float: left !important;
+}
+
+li.warnings + li.relationships,
+li.relationships + li.characters,
+li.characters + li.freeforms,
+li.warnings + li.characters,
+li.warnings + li.freeforms,
+li.relationships + li.freeforms {
+  clear: left;
+}
+
+ul.tags li.warnings:first-child:before {
+  content: "Archive Warnings: ";
+  color: #FFF;
+  font-weight: bold;
+}
+
+li.warnings + li.relationships:before {
+  content: "Relationships: ";
+  color: #FFF;
+  font-weight: bold;
+}
+
+li.relationships + li.characters:before {
+  content: "Characters: ";
+  color: #FFF;
+  font-weight: bold;
+}
+
+li.characters + li.freeforms:before {
+  content: "Freeform: ";
+  color: #FFF;
+  font-weight: bold;
+}
+
+li.warnings + li.characters:before {
+  content: "Characters: ";
+  color: #FFF;
+  font-weight: bold;
+}
+
+li.warnings + li.freeforms:before {
+  content: "Freeform: ";
+  color: #FFF;
+  font-weight: bold;
+}
+
+li.relationships + li.freeforms:before {
+  content: "Freeform: ";
+  color: #FFF;
+  font-weight: bold;
+}
