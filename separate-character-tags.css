@@ -13,7 +13,7 @@
 }
 
 /*Credit to ao3 user Branch for this code! Placed here for convenience, will remove if asked. */
-/*Normal, Seperated*/
+/*Normal, Line by Line*/
 .blurb .relationships {
   font-style: italic;
   background: none;
@@ -82,7 +82,7 @@ li.relationships + li.freeforms:before {
 }
 
 /*Again, Credit to Branch. All I did was modify text colour */
-/*Reversi, Seperated*/
+/*Reversi, Line by Line*/
 .blurb .relationships {
   font-style: italic;
   background: none;
