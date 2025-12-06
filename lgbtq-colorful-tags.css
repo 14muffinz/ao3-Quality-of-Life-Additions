@@ -1,0 +1,98 @@
+/*this code will make any lgbtq tags turn their respective flag colours*/
+/*it's admittedly a little buggy, so as i find more words that it flags, i'll add them here*/
+/*included: aroace, aro, ace, lesbian, trans, bi, enby, and rainbows for gay or queer or lgbt*/
+a.tag[href*="Aromantic%20Asexual"i]:not([href*="phobia"i]),
+a.tag[href*="Asexual%20Aromantic"i]:not([href*="phobia"i]),
+a.tag[href*="AroAce"i]:not([href*="phobia"i]) {
+  background-size: 100% 150%;
+  background: linear-gradient(to right,rgba(239, 144, 7, 1) 0%, rgba(246, 211, 23, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(69, 188, 238, 1) 75%, rgba(30, 63, 84, 1) 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a.tag[href*="Aromantic"i]:not([href*="phobia"i]):not([href*="Asexual"i]),
+a.tag[href*="Aro"i]:not([href*="phobia"i]):not([href*="AroAce"i]):not([href*="Asexual"i]):not([href*="Baron%20Draxum"i]):not([href*="Parody"i]):not([href*="Carol"i]):not([href*="Aaron"i]) {
+  background-image: linear-gradient(to right, rgba(61, 165, 66, 1), rgba(167, 211, 121, 1), rgba(246, 248, 251, 1), rgba(169, 169, 169, 1), rgba(76, 76, 76));
+  background-size: 100% 150%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a.tag[href*="Asexual"i]:not([href*="phobia"i]):not([href*="Aromantic%20Asexual"i]):not([href*="Aromantic"i]),
+a.tag[href*="Ace"i]:not([href*="phobia"i]):not([href*="place"i]):not([href*="face"i]):not([href*="brace"i]):not([href*="peace"i]):not([href*="carapace"i]):not([href*="race"i]):not([href*="space"i]):not([href*="Stacy"i]) :not([href*="Mace"i]):not([href*="Aroace"i]) {
+  background-image: linear-gradient(to right, rgba(76, 76, 76, 1), rgba(114, 114, 114, 1), rgba(204, 204, 204, 1), rgba(192, 127, 192, 1), rgba(141, 25, 141, 1), rgba(141, 25, 141));
+  background-size: 100% 150%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a.tag[href*="Lesbian"i]:not([href*="phobia"i]) {
+  background-image: linear-gradient(to right, rgba(213, 45, 0, 1), rgba(239, 118, 39, 1), rgba(255, 154, 86, 1), rgba(235, 235, 235, 1), rgba(209, 98, 164, 1), rgba(181, 86, 144, 1), rgba(163, 2, 98));
+  background-size: 100% 150%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a.tag[href*="Trans"i]:not([href*="Transphobia"i]):not([href*="transport"i]):not([href*="translation"i]):not([href*="transformers"i]):not([href*="transphobic"i]):not([href*="transform"i]):not([href*="transend"i]) {
+  background-image: linear-gradient(to right, rgba(32, 169, 214, 1), rgba(212, 127, 162, 1), rgba(220, 220, 220, 1), rgba(212, 127, 162, 1), rgba(32, 169, 214));
+  background-size: 100% 150%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a.tag[href*="Bisexual"i]:not([href*="phobia"i]) {
+  background-image: linear-gradient(to right, rgba(255, 0 ,128, 1), rgba(163, 73, 164, 1), rgba(22, 52, 201, 1));
+  background-size: 100% 150%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a.tag[href*="Non-Binary"i]:not([href*="phobia"i]),
+a.tag[href*="Nonbinary"i]:not([href*="phobia"i]) {
+  background-image: linear-gradient(to right, rgba(252, 244, 52, 1), rgba(220, 220, 220, 1), rgba(156, 89, 209, 1), rgba(44, 44, 44, 1));
+  background-size: 100% 150%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a.tag[href*="Pan"i]:not([href*="phobia"i]):not([href*="spanish"i]) {
+  background-size: 100% 150%;
+  background-image: linear-gradient(90deg, rgba(255,33,140,1) 0%, rgba(255,216,0,1) 33%, rgba(33,177,255,1) 66%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a.tag[href*="Gay"i]:not([href*="phobia"i]) {
+  background-size: 100% 150%;
+  background-image: linear-gradient(90deg, rgba(255,14,14,1) 0%, rgba(255,151,18,1) 20%, rgba(255,247,24,1) 40%, rgba(9,244,69,1) 60%, rgba(14,110,255,1) 80%, rgba(206,14,255,1) 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a.tag[href*="Queer"i]:not([href*="phobia"i]),
+a.tag[href*="LGBT"i]:not([href*="phobia"i]) {
+  background-size: 100% 150%;
+  background-image: linear-gradient(90deg, rgba(255,14,14,1) 0%, rgba(255,151,18,1) 20%, rgba(255,247,24,1) 40%, rgba(9,244,69,1) 60%, rgba(14,110,255,1) 80%, rgba(206,14,255,1) 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
