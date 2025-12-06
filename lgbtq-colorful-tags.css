@@ -22,6 +22,7 @@ a.tag[href*="Aro"i]:not([href*="phobia"i]):not([href*="AroAce"i]):not([href*="As
   -moz-text-fill-color: transparent;
 }
 
+/*warning: this also happens to the mace windu tag. i've tried to stop it. */
 a.tag[href*="Asexual"i]:not([href*="phobia"i]):not([href*="Aromantic%20Asexual"i]):not([href*="Aromantic"i]),
 a.tag[href*="Ace"i]:not([href*="phobia"i]):not([href*="place"i]):not([href*="face"i]):not([href*="brace"i]):not([href*="peace"i]):not([href*="carapace"i]):not([href*="race"i]):not([href*="space"i]):not([href*="Stacy"i]) :not([href*="Mace"i]):not([href*="Aroace"i]) {
   background-image: linear-gradient(to right, rgba(76, 76, 76, 1), rgba(114, 114, 114, 1), rgba(204, 204, 204, 1), rgba(192, 127, 192, 1), rgba(141, 25, 141, 1), rgba(141, 25, 141));
@@ -69,7 +70,7 @@ a.tag[href*="Nonbinary"i]:not([href*="phobia"i]) {
   -moz-text-fill-color: transparent;
 }
 
-a.tag[href*="Pan"i]:not([href*="phobia"i]):not([href*="spanish"i]) {
+a.tag[href*="Pan"i]:not([href*="phobia"i]):not([href*="panic"i]):not([href*="panther"i]):not([href*="company"i]):not([href*="Japan"i]):not([href*="Panda"i]):not([href*="Pants"i]):not([href*="spanish"i]) {
   background-size: 100% 150%;
   background-image: linear-gradient(90deg, rgba(255,33,140,1) 0%, rgba(255,216,0,1) 33%, rgba(33,177,255,1) 66%);
   -webkit-background-clip: text;
