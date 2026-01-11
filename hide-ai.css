@@ -4,6 +4,7 @@
 [href*="AI-Assisted" i],
 [href*="AI-Generated" i],
 [href*="AI%20Generated" i],
+[href*="Created%20With%20AI" i],
 [href*="Generative%20AI" i]:not([href*="Fuck%20Generative%20AI"]),
 [href*="Co-Written%20with%20AI" i])) {
   display: none !important;
