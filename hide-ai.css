@@ -1,5 +1,6 @@
 /*Will hide fics TAGGED WITH AI from view*/
 /*NOT an automatic filter, lowers number of fics shown on search page*/
+/* ao3 pages all show 20 fics, with this installed it could be anywhere between 0 and 20 depending on how many ai fics were *supposed* to appear*/
 .blurb:has(a:is([href*="AI%20assisted" i],
 [href*="AI-Assisted" i],
 [href*="AI-Generated" i],
