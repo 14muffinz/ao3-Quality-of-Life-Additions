@@ -1,0 +1,25 @@
+/* this is a WIP, so there may be bugs or incomplete explanations*/
+/* keep this tab open, ao3 removes all comments when you save */
+
+/* FIC/SERIES HIDER */
+/* replace the hashes with the ID of the fic you want gone. */
+/* you MUST hide individual works in a series, hiding the series will only hide the entire things in other ppl's bookmarks */
+/* to hide more, start a new line and add the new work. ensure there's a comma after all but the last line with the bracket */
+.blurb.work-######,
+.blurb.series-###### {
+  display: none !important;
+}
+
+/* FANDOM  HIDER */
+/*this example uses some animes as exaple fandoms, works for all*/
+/* INCLUDES crossovers with unfiltered fandoms */
+/* for one word fandoms, replacing the top naruto with said word works fine */
+/* for fandoms with multiple words or special characters, go to their page, and copy what ever the url has as the "name"*/
+/* (most frequent example is a space being %20 instead */
+/* in order for this to work, ensure you have the "blurb has" section on the first line, and the parenthesis at the end */
+.blurb:has(a:is([href$="/tags/Naruto/works"],
+[href$="/tags/Haikyuu!!/works"],
+[href$="/tags/Naruto%20(Anime%20*a*%20Manga)/works"],
+[href$="/tags/One%20Piece/works"])) {
+  display: none !important;
+}
