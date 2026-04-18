@@ -5,7 +5,8 @@ A series of additions to site skins to subtly improve your time browsing ao3.
 1. Code to hide fics made by AI, assuming they've been tagged.
 2. Add a little sparkle to your browsing by having LGBTQ tags appear in their relevant flag colours.
 3. Make it easier to spot where the character tags end and additional tags begin, either with highlighting or with full separation of tag types.
-4. Fandom/Tag hider for anything you can think of (WIP)
+4. Stat hider for specifically your own fanfics
+5. Fandom/Tag hider for anything you can think of (WIP)
 
 ## How To Make A Site Skin
 This is for those brand new to site skins on ao3, and will show you exactly how to implement everything here for yourself. 
