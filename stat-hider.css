@@ -1,0 +1,7 @@
+/* this will hide your OWN ao3 stats on your fics */
+.own .stats .hits,
+.own .stats .kudos,
+.own .stats .comments,
+.own .stats .bookmarks {
+  display: none !important;
+}
