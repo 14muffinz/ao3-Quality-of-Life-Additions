@@ -5,3 +5,11 @@
 .own:not(.collection) .stats .bookmarks {
   display: none !important;
 }
+
+/* this hides all BUT your own stats */
+.blurb:not(.own) > .stats .hits,
+.blurb:not(.own) > .stats .kudos,
+.blurb:not(.own) > .stats .comments,
+.blurb:not(.own):not(.collection) > .stats .bookmarks {
+  display: none !important;
+}
