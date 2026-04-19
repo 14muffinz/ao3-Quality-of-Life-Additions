@@ -2,6 +2,6 @@
 .own .stats .hits,
 .own .stats .kudos,
 .own .stats .comments,
-.own .stats .bookmarks {
+.own:not(.collection) .stats .bookmarks {
   display: none !important;
 }
