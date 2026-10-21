@@ -13,13 +13,13 @@
 /* FANDOM  HIDER */
 /*this example uses some animes as exaple fandoms, works for all*/
 /* INCLUDES crossovers with unfiltered fandoms */
-/* for one word fandoms, replacing the top naruto with said word works fine */
+/* for one word fandoms, replacing the top DCU with said word works fine */
 /* for fandoms with multiple words or special characters, go to their page, and copy what ever the url has as the "name"*/
 /* (most frequent example is a space being %20 instead */
 /* in order for this to work, ensure you have the "blurb has" section on the first line, and the parenthesis at the end */
 .blurb:has(a:is([href$="/tags/Naruto/works"],
 [href$="/tags/Haikyuu!!/works"],
-[href$="/tags/Naruto%20(Anime%20*a*%20Manga)/works"],
+[href$="/tags/DCU/works"],
 [href$="/tags/One%20Piece/works"])) {
   display: none !important;
 }
